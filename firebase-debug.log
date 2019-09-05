@@ -1,0 +1,14 @@
+[debug] [2019-09-05T12:03:50.646Z] ----------------------------------------------------------------------
+[debug] [2019-09-05T12:03:50.649Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-09-05T12:03:50.649Z] CLI Version:   7.2.2
+[debug] [2019-09-05T12:03:50.649Z] Platform:      win32
+[debug] [2019-09-05T12:03:50.649Z] Node Version:  v12.7.0
+[debug] [2019-09-05T12:03:50.650Z] Time:          Thu Sep 05 2019 17:03:50 GMT+0500 (Pakistan Standard Time)
+[debug] [2019-09-05T12:03:50.650Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-05T12:03:50.658Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-05T12:03:50.659Z] > authorizing via signed-in user
+[debug] [2019-09-05T12:03:50.659Z] [iam] checking project cloud-functions-49248 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-09-05T12:03:50.662Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cloud-functions-49248:testIamPermissions  
+
+[debug] [2019-09-05T12:03:55.178Z] <<< HTTP RESPONSE 200
